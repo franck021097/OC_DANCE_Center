@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	background-color: grey;
+	border-radius: 50px;
+}
+
+nav p a{
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul li a{
+	color: white;
+	text-decoration: none;
+	display: none;
+}
+
+nav p a:hover{
+	visibility: inherit;
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+footer{
+	display: flex;
+	justify-content: safe center;
+	background-color: #202222;
+}
+
+footer div{
+	background-color: #272D2D;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+footer a{
+	color: #15EAF1;
+	text-decoration: none;
+	font-family: monospace;
+	font-size: 25px;
+}

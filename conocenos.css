@@ -1,0 +1,23 @@
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+p{
+	text-align: justify;
+}
+
+h1{
+	color: black;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	background-color: white;
+	border-radius: 25px;
+}
+
+h1 a img{
+	height: 90px;
+	width: 90px;
+	border-radius: 50px;
+}
